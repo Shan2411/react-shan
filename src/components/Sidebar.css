@@ -1,0 +1,12 @@
+
+.pfp{
+
+    margin-top: 10%;
+    height: 23vh;
+    width: 12vw;
+
+    border: 1px solid black;
+    border-radius: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
