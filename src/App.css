@@ -1,6 +1,6 @@
 *{height: 100vh; width: 100%; margin: 0; box-sizing: border-box;
-
-    background-color: rgb(246, 246, 246);
+    user-select: none;
+    background-color: rgb(35, 34, 34);
 
 }
 

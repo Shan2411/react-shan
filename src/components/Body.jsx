@@ -1,4 +1,7 @@
 import "./Body.css"
+import Icons from './Icons'
+
+
 
 function Body () {
 
@@ -9,9 +12,12 @@ function Body () {
                 <div className="box" id="b2"> test</div>
                 <div className="box" id="b3"> test</div>
                 <div className="box" id="b4"> test</div>
-                <div className="box" id="hidden"> test</div>
-                <div className="box" id="b5"> test</div>
-
+                <div className="box" id="hidden"> 
+                    <span className="name">Shan David H. Enriquez <br /></span>
+                    <span className="loc">  📍Based in the Philippines <br /></span>
+                    18 years old Computer Science Student studying at UCC
+                    </div>
+                <div className="box" id="b5"> <Icons /></div>
             </div>
         </>
     )

@@ -11,4 +11,7 @@
     overflow: hidden;
     pointer-events: none;
     position: absolute;
+
+    animation-name: animation;
+    animation-duration: 0.3s;
 }
