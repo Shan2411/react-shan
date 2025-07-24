@@ -5,8 +5,8 @@ function Icons () {
 
     return(
         <div className="Icontainer">
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <img className="image" id="github" src="/25231.png" alt="" />
+            <img className="image" id="x" src="" alt="" />
          </div>
     )
 

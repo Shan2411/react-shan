@@ -1,5 +1,13 @@
 .Icontainer{
-    
+    height: 13%; width: 60%;
+    background-color: none;
+    margin-top: 40%;
+    position: absolute;
 
+}
+
+.image{
+    height: 11vh; width: 6vw;
+    border-radius: 100%;
 
 }
