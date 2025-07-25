@@ -1,9 +1,9 @@
 
 .pfp{
 
-    margin-top: 13%;
-    height: 24vh;
-    width: 12vw;
+    margin-top: 2%;
+    height: 20vh;
+    width: 10vw;
 
     border: 1px solid black;
     border-radius: 100%;
@@ -11,6 +11,7 @@
     overflow: hidden;
     pointer-events: none;
     position: absolute;
+    left: 25%;
 
     animation-name: animation;
     animation-duration: 0.3s;
