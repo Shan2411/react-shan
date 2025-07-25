@@ -8,8 +8,8 @@ function Body () {
     return (
         <>
             <div className="Bodey">
-                <div className="box" id="b1"> test</div>
-                <div className="box" id="b2"> test</div>
+                <div className="box" id="b1"> Other Works:</div>
+                <div className="box" id="b2"> Projects</div>
                 <div className="box" id="b3"> test</div>
                 <div className="box" id="b4"> test</div>
                 <div className="box" id="hidden"> 
