@@ -13,12 +13,9 @@ function Body () {
                     <span className="name">Shan David H. Enriquez <br /></span>
                     <span className="loc">  📍Based in the Philippines <br /></span>
                     <p className="details">18 y/o Computer Science Student studying at UCC</p>
-                    </div>
-                <div className="box" id="b2">
-
-
+                    <hr/>
+                    <Icon2 />
                 </div>
-
                 <div className="box" id="b5"> <Icons /></div>
             </div>
         </>
