@@ -1,6 +1,6 @@
 import './App.css'
 import Sidebar from './components/Sidebar'
-import Window1 from './components/Window1'
+
 import Icons from './components/Icons'
 import About from './components/About'
 import Body from "./components/Body"
@@ -10,7 +10,6 @@ import Body from "./components/Body"
 function App() {
   return (
     <div className='main'>
-        <Window1 />
         <Sidebar />
         <Body> </Body>
     </div>

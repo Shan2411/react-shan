@@ -16,7 +16,6 @@ function Body () {
                     <hr/>
                     <Icon2 />
                 </div>
-                <div className="box" id="b5"> <Icons /></div>
             </div>
         </>
     )
