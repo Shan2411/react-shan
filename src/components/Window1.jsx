@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef} from "react";
 import "./Window1.css"
 
-function Window1 () {
+function Window1 (props) {
 
     const panel = useRef(null)
     const [coords, setcoords] = useState({x: 0, y: 0});
@@ -41,7 +41,7 @@ function Window1 () {
 
     return(
 
-        <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x}}>
+        <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: props.isShown ? 'block' : 'none'}}>
             <div className="header">
 
             </div>
