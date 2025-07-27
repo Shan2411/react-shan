@@ -1,10 +1,10 @@
 import { useState, useEffect, useRef} from "react";
-import "./Window1.css"
+import "./Window2.css"
 
-function Window1 ({shown, close}) {
+function Window2 ({shown2, close2}) {
 
 
-    console.log(shown)
+    console.log("number 2",shown2 )
 
     const panel = useRef(null)
     const [coords, setcoords] = useState({x: -500, y: -180});
@@ -44,9 +44,9 @@ function Window1 ({shown, close}) {
 
     return(
 
-        <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown ? 'block' : 'none'}}>
+        <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown2 ? 'block' : 'none'}}>
             <div className="header">
-              <span className="xButton" onMouseDown={close}>[ x ]</span>
+              <span className="xButton" onMouseDown={close2}>[ x ]</span>
             </div>
         </div>
         
@@ -54,4 +54,4 @@ function Window1 ({shown, close}) {
 
 }
 
-export default Window1;
+export default Window2;
