@@ -9,7 +9,6 @@ function Icon2 () {
     const [isShown, setisShown] = useState(false)
 
     const descHandler = (event) => {
-      console.log("Handler sees isShown:", isShown);
       setisShown(prev => !prev);
     }
     
@@ -20,12 +19,12 @@ function Icon2 () {
         <div className="iconContainer">
 
 
-          <div className="desc" ref={descClick} onMouseDown={descHandler}>
+          <div className="desc" ref={descClick} onClick={descHandler}>
             <img className="image2" id="resume1" src="/info.png" alt="" />
             <span><br/>about</span>
           </div>
 
-          <Window1 shown={isShown}/>
+          <Window1 shown={isShown} close={descHandler} />
 
           <div className="desc">
             <img className="image2" id="resume1" src="/foldericon.png" alt="" />

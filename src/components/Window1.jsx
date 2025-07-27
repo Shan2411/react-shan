@@ -1,12 +1,14 @@
 import { useState, useEffect, useRef} from "react";
 import "./Window1.css"
+import Icon2 from "./Icon2.jsx"
 
-function Window1 (props) {
+function Window1 ({shown, close}) {
 
-    console.log(props.shown)
+
+    console.log(shown)
 
     const panel = useRef(null)
-    const [coords, setcoords] = useState({x: 0, y: 0});
+    const [coords, setcoords] = useState({x: -500, y: -180});
     const [newcoords, setnewcoords] = useState({ newX: 0, newY: 0 });
 
     const mouseU = (event) => {
@@ -43,9 +45,9 @@ function Window1 (props) {
 
     return(
 
-        <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: props.shown ? 'block' : 'none'}}>
+        <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown ? 'block' : 'none'}}>
             <div className="header">
-
+              <span className="xButton" onMouseDown={close}>[ x ]</span>
             </div>
         </div>
         
