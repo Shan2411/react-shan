@@ -3,6 +3,8 @@ import "./Window1.css"
 
 function Window1 (props) {
 
+    console.log(props.shown)
+
     const panel = useRef(null)
     const [coords, setcoords] = useState({x: 0, y: 0});
     const [newcoords, setnewcoords] = useState({ newX: 0, newY: 0 });
@@ -41,7 +43,7 @@ function Window1 (props) {
 
     return(
 
-        <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: props.isShown ? 'block' : 'none'}}>
+        <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: props.shown ? 'block' : 'none'}}>
             <div className="header">
 
             </div>
