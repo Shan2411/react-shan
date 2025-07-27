@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef} from "react";
-import "./Window2.css"
+import "./WindowMain.css"
 
 function Window4 ({shown4, close4}) {
 
