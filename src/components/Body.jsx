@@ -1,5 +1,4 @@
 import "./Body.css"
-import Icons from './Icons'
 import Icon2 from './Icon2'
 
 

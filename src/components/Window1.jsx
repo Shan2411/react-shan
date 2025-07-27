@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef} from "react";
 import "./WindowMain.css"
+import "./Window1.css"
+import Window1content from "./WindowContents/window1content.jsx"
 
 function Window1 ({shown, close}) {
 
@@ -42,12 +44,16 @@ function Window1 ({shown, close}) {
       };
     }, []);
 
+    // programming languages known, details, human languages known? , 
+
     return(
 
         <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown ? 'block' : 'none'}}>
             <div className="header">
+              <span className="aboutDesign">ABOUT </span>
               <span className="xButton" onMouseDown={close}>[ x ]</span>
             </div>
+            <Window1content />
         </div>
         
     )

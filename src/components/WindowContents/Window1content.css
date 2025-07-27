@@ -1,0 +1,19 @@
+.containerWindow1{
+
+    margin-top: 5%;
+
+}
+
+.text{
+    opacity: 85%;
+    font: 1.1em Tahoma, Verdana, sans-serif;
+}
+
+#cw1header1 { height: auto;
+     text-align: center;
+
+}
+#cw1header2 { height: auto;
+     margin-left: 5%;
+
+}
