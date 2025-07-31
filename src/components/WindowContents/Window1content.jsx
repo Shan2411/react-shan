@@ -4,18 +4,18 @@ import Icons from './Icons'
 function Window1content() {
 
     return(
-
-        <div className="containerWindow1">
-
-            <p className='text' id='cw1header1'>Hello Guys I am a student capable of doing... <br /><br /></p>
-            <p className='text' id='cw1header2'>Programming: <br /><br /></p>
-            <Icons />
-            <p className='text' id='cw1header2'>Scripting: <br /><br /></p>
-            <Icons />
-            <p className='text' id='cw1header2'>Framework: <br /><br /></p>
-            <Icons />
+        <div className='w1scrollbar'>
+            <div className="containerWindow1">
+                
+                <span id='cw1header1'>Hi im Shan</span>  <span id='cw1header2'>I do...</span> <br /><br /><br />
+                <p className='text' id='cw1text2'>Education: <br /><br /><br /></p>
+                
+                <p className='text' id='cw1text2'>Scripting: <br /><br /></p>
+                
+                <p className='text' id='cw1text2'>Framework: <br /><br /></p>
+                
+            </div>
         </div>
-
     )
 
 }

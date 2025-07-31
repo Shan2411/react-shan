@@ -8,3 +8,23 @@
     display: flex; 
     align-items: center;
 }
+
+.window1Cont{ height: 66%; width: 53%; 
+
+    box-shadow: 0px 6px 0 0 rgb(212, 212, 212);
+
+    position: fixed;
+
+    left: 0px;
+    top: 0px;
+
+    border:1px solid rgb(212, 212, 212) ;
+    background-color: rgb(35, 34, 34);
+    border-radius: 1.5%;
+    overflow: hidden;
+
+    z-index: 1;
+
+    background-color: rgb(35, 34, 34);
+
+}

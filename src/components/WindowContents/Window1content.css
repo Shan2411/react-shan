@@ -1,7 +1,11 @@
+.w1scrollbar{height: 91%;
+    overflow-y: scroll;
+    scrollbar-color:grey rgb(35, 34, 34) ;
+
+}
 .containerWindow1{
-
-    margin-top: 5%;
-
+    margin-left: 7%;
+    margin-top: 6%;
 }
 
 .text{
@@ -9,11 +13,17 @@
     font: 1.1em Tahoma, Verdana, sans-serif;
 }
 
-#cw1header1 { height: auto;
-     text-align: center;
+
+#cw1header1 { height: 8%; width: 48%;
+margin-left: 6%; margin-right: 5%;
+    font: 3em Tahoma, Verdana, sans-serif;
+
 
 }
-#cw1header2 { height: auto;
-     margin-left: 5%;
+#cw1header2 { height: 4%; width: 20%;
+    font: 1.5em Tahoma, Verdana, sans-serif;
+
+}
+#cw1text2 { height: 4%;
 
 }
