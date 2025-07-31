@@ -1,18 +1,40 @@
+.block{ height: 100%; width: 80%;
+    background-color: rgb(232, 234, 235);
+    text-align: center;
+    border: 3px outset rgb(35, 34, 34);
+}
 
 .image{
     object-fit: contain;
-    height: 7.5vh; width: 3.5vw;
-    border-radius: 70%;
-    background-color: rgb(201, 201, 201);
+    height: 16vh; width: 7.5vw;
+    border-radius: 3%;
 }
 
 #x{
     background-color: rgb(0, 0, 0);
 }
 
-.w1imgconainert{ height: auto; width: 100%;
+.w1imgconainert{ height: 23vh; width: 100%;
 
     display: flex;
     justify-content: space-evenly;
+    gap: 5%;
+
+    margin-bottom: 5%;
+}
+
+#progName{color: rgb(0, 0, 0); font-size: 1.07em;}
+
+.block2{ height: 100%; width: 80%;
+    background-color: rgb(232, 234, 235);
+    text-align: center;
+    border: 3px outset rgb(35, 34, 34);
+
+    visibility: hidden;
+}
+
+#github{
+
+    height: 14.5vh; width: 7.5vw; padding-top: 16px;
 
 }

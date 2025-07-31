@@ -48,8 +48,8 @@ function Window1 ({shown, close}) {
 
     return(
 
-        <div ref={panel} className="window1Cont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown ? 'block' : 'none'}}>
-            <div className="header">
+        <div className="window1Cont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown ? 'block' : 'none'}}>
+            <div ref={panel} className="header">
               <span className="aboutDesign">ABOUT </span>
               <span className="xButton" onMouseDown={close}>[ x ]</span>
             </div>

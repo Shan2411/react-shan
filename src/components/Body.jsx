@@ -9,8 +9,8 @@ function Body () {
         <>
             <div className="Bodey">
                 <div className="box" id="hidden"> 
-                    <span className="name">Shan David H. Enriquez <br /></span>
-                    <span className="loc">  📍Based in the Philippines <br /></span>
+                    <span className="name">Shan David H. Enriquez</span><br />
+                    <span className="loc">  📍Based in the Philippines </span><br />
                     <p className="details">18 y/o Computer Science Student studying at UCC</p>
                     <hr/>
                     <Icon2 />

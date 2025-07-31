@@ -6,7 +6,6 @@
 
 .box{
     border:1px solid rgb(212, 212, 212) ;
-    background-color: rgb(35, 34, 34);
     border-radius: 1.5%;
     margin: 1%;
     margin-top: 7%;
@@ -19,16 +18,18 @@
 
 #hidden{ height: 76%; width: 87%; 
     
-    padding-top: 2%;
-    font: 1em Tahoma, Verdana, sans-serif;
-    line-height: 190%;
+    padding-top: 3%;
+    font: 1em Consolas, monospace;
+    font-family: Consolas, monospace;
+    line-height: 170%;
     color: rgb(212, 212, 212);
+    background-color: rgb(35, 34, 34);
 }
 
 
 
 
-.loc{background-color: rgb(35, 34, 34); font: .94em Tahoma, Verdana, sans-serif ; 
+.loc{background-color: rgb(35, 34, 34); font: .94em Consolas, monospace ; 
     font-weight: 100;    
     padding-left:1%;
     opacity: 69%;
@@ -36,7 +37,7 @@
     margin-left: 15vw;
 }
 .name{
-    background-color: rgb(35, 34, 34); font: 2.0em Tahoma, Verdana, sans-serif; 
+    background-color: rgb(35, 34, 34); font: 1.9em Consolas, monospace; 
     font-weight:590;
     color: rgb(212, 212, 212);
     margin-left: 15vw;
@@ -46,24 +47,11 @@
     opacity: 85%;
     margin-left: 14vw;
     margin-top: 3.1vh;
-    font: 1.03em Tahoma, Verdana, sans-serif;
+    font: 1.03em Consolas, monospace;
     height: 10%;
     width: 70%;
 }
 
-.progtitle{
-    height: 10%;
-    width: 90%;
-
-    
-    background-color: rgb(35, 34, 34); font: 1.5em Tahoma, Verdana, sans-serif; 
-    font-weight:600;
-    color: rgb(212, 212, 212);
-    margin-left: 3vw;
-    margin-top: 3.6vh;
-
-    font: 1.2em Tahoma, Verdana, sans-serif;
-}
 
 hr {
     width: 100% ;
@@ -71,7 +59,11 @@ hr {
     height: 1px;
 }
 
+.xbutton{
+    margin-left: 15%;
+    font-size: 1.5em;
 
+}
 
 
 

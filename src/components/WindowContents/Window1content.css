@@ -6,24 +6,33 @@
 .containerWindow1{
     margin-left: 7%;
     margin-top: 6%;
+    width: 85%; height: 450%;
 }
 
 .text{
     opacity: 85%;
-    font: 1.1em Tahoma, Verdana, sans-serif;
+    font: 1.14em Consolas, monospace;
+    
 }
 
 
 #cw1header1 { height: 8%; width: 48%;
-margin-left: 6%; margin-right: 5%;
-    font: 3em Tahoma, Verdana, sans-serif;
+    
+    margin-left: 5%; margin-right: 3%;
+    font: 2.5em Consolas, monospace;
 
 
 }
 #cw1header2 { height: 4%; width: 20%;
-    font: 1.5em Tahoma, Verdana, sans-serif;
+    font: 1.06em Consolas, monospace;
+    line-height: 245%;
 
 }
-#cw1text2 { height: 4%;
-
+#cw1text2 { height: 3%;
+    
+}
+#cw1text3 { height: 3%;
+    margin-left: 12%;
+    border-left: 5px solid rgba(220, 218, 218, 0.5);
+    padding-left: 2.5% ;
 }

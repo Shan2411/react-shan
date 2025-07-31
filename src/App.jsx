@@ -8,7 +8,6 @@ import Top from "./components/top"
 function App() {
   return (
     <div className='main'>
-        <Top />
         <Sidebar />
         <Body> </Body>
     </div>
