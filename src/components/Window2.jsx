@@ -1,5 +1,8 @@
 import { useState, useEffect, useRef} from "react";
 import "./WindowMain.css"
+import "./Window2.css"
+import Window2content from "./WindowContents/Window2content.jsx";
+
 
 function Window2 ({shown2, close2}) {
 
@@ -44,10 +47,12 @@ function Window2 ({shown2, close2}) {
 
     return(
 
-        <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown2 ? 'block' : 'none'}}>
-            <div className="header">
+        <div className="windowCont" id="window2size" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown2 ? 'block' : 'none'}}>
+            <div className="header" ref={panel}>
+              <span className="aboutDesign">WORKS</span>
               <span className="xButton" onMouseDown={close2}>[ x ]</span>
             </div>
+            <Window2content />
         </div>
         
     )

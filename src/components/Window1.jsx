@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef} from "react";
 import "./WindowMain.css"
 import "./Window1.css"
-import Window1content from "./WindowContents/window1content.jsx"
+import Window1content from "./WindowContents/Window1content.jsx"
 
 function Window1 ({shown, close}) {
 

@@ -1,0 +1,21 @@
+.containerWindow2{
+    height: 88%;
+    overflow-y: scroll;
+    scrollbar-color:grey rgb(35, 34, 34) ;
+    overflow-x: hidden;
+}
+
+
+.w2container{
+    
+    padding-left: 5%;
+    padding-top: 5%;
+    width: 85%; height: 270%;
+}
+
+#cw2header1{
+
+    padding-left: 3%;
+    font-size: 2em;
+
+}
