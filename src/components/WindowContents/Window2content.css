@@ -10,12 +10,25 @@
     
     padding-left: 5%;
     padding-top: 5%;
-    width: 85%; height: 270%;
+    width: 85%; height: 400%;
 }
 
 #cw2header1{
 
     padding-left: 3%;
     font-size: 2em;
+
+}
+
+.illustrations{
+
+    columns: 255px;
+
+}
+
+.image1{
+
+    height: auto;
+    width: 100%;
 
 }

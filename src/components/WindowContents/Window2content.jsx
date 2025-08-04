@@ -16,6 +16,10 @@ function Window2content () {
             <hr />
             <br />
             <span className='text' id='cw2header1'>Illustrations:</span>
+            <div className='illustrations'>
+               
+            </div>
+
         </div>
 
     </div>
