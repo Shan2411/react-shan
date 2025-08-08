@@ -1,7 +1,6 @@
 .containerWindow2{
     height: 88%;
     overflow-y: scroll;
-    scrollbar-color:grey rgb(35, 34, 34) ;
     overflow-x: hidden;
 }
 

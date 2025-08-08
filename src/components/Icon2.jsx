@@ -40,26 +40,26 @@ function Icon2 () {
 
 
           <div className="desc" ref={descClick} onClick={descHandler}>
-            <img className="image2" id="resume1" src="/info.png" alt="" />
+            <img className="image2" id="resume1" src="/winfo.png" alt="" />
             <span><br/>about</span>
           </div>
 
           <Window1 shown={isShown} close={descHandler} />
 
           <div className="desc" ref={descClick2} onClick={descHandler2}>
-            <img className="image2" id="resume1" src="/foldericon.png" alt="" />
+            <img className="image2" id="resume1" src="/wfoldericon.png" alt="" />
             <span><br/>works</span>
           </div>
 
           <Window2 shown2={isShown2} close2={descHandler2} />
 
           <div className="desc">
-            <img className="image2" id="resume1" src="/resume.png" alt="" />
+            <img className="image2" id="resume1" src="/wresume.png" alt="" />
             <span><br/>resume</span>
           </div>
 
           <div className="desc" ref={descClick4} onClick={descHandler4}>
-            <img className="image2" id="resume1" src="/contact.png" alt="" />
+            <img className="image2" id="resume1" src="/wcontact.png" alt="" />
             <span><br/>contacts</span>
           </div>
 

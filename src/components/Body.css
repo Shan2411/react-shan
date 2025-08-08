@@ -1,55 +1,50 @@
 .Bodey{
+    margin-top: 8vh;
     width: 60% ;
     padding: 3%;
-    margin-left: 2vw;
+    margin-left: 3.5vw;
 }
 
 .box{
-    border:1px solid rgb(212, 212, 212) ;
-    border-radius: 1.5%;
-    margin: 1%;
-    margin-top: 7%;
+    border:1px solid rgb(0, 0, 0) ;
     font: 1em ;
     display: inline-block;
-
-    box-shadow: -6px 6px 0 0 rgb(212, 212, 212);
+    
     background: none;
 }
 
-#hidden{ height: 76%; width: 87%; 
-    
-    padding-top: 3%;
+#hidden{ height: 97.5%; width: 98.5%;    
+
+    margin: 0.8%;
+
     font: 1em Consolas, monospace;
-    font-family: Consolas, monospace;
     line-height: 170%;
-    color: rgb(212, 212, 212);
-    background-color: rgb(35, 34, 34);
+    color: rgb(35, 34, 34) ;
+    background-color: rgb(225, 225, 225);
 }
 
 
 
 
-.loc{background-color: rgb(35, 34, 34); font: .94em Consolas, monospace ; 
-    font-weight: 100;    
-    padding-left:1%;
-    opacity: 69%;
-    color: rgb(212, 212, 212);
-    margin-left: 15vw;
+.loc{
+    font: .94em Consolas, monospace ; 
+    color: rgb(22, 22, 22);
+    display: flex;
+    width: auto;
+    height: 60%;
 }
 .name{
-    background-color: rgb(35, 34, 34); font: 1.9em Consolas, monospace; 
+    font: 1.9em Consolas, monospace; 
     font-weight:590;
     color: rgb(212, 212, 212);
     margin-left: 15vw;
     
 }
 .details{
-    opacity: 85%;
-    margin-left: 14vw;
-    margin-top: 3.1vh;
     font: 1.03em Consolas, monospace;
-    height: 10%;
+    height: 60%;
     width: 70%;
+    color: rgb(212, 212, 212);
 }
 
 
@@ -65,7 +60,39 @@ hr {
 
 }
 
+.head{
+    background-color: rgb(18, 42, 120);
+    height: 7%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
 
+.head2{
+
+    background-color: rgb(216, 215, 215);
+    border-bottom: solid 1px;
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    gap: 5%;
+    padding-left:5% ;
+}
+
+#border{ height: 76%; width: 87%; 
+    
+
+    font: 1em Consolas, monospace;
+    font-family: Consolas, monospace;
+    line-height: 170%;
+    color: rgb(35, 34, 34) ;
+    background-color: rgb(201, 201, 201);
+}
+
+.folderHeader{
+    height: 50px; width: 40px;
+
+}
 
 @keyframes animation {
     0%{

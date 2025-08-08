@@ -19,12 +19,9 @@
     top: 0px;
 
     border:1px solid rgb(212, 212, 212) ;
-    background-color: rgb(35, 34, 34);
-    border-radius: 1.5%;
+    background-color: rgb(225, 225, 225);
     overflow: hidden;
 
     z-index: 1;
-
-    background-color: rgb(35, 34, 34);
 
 }

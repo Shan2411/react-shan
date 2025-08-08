@@ -1,5 +1,4 @@
 import './App.css'
-import Sidebar from './components/Sidebar'
 import Body from "./components/Body"
 import Top from "./components/top"
 
@@ -8,7 +7,6 @@ import Top from "./components/top"
 function App() {
   return (
     <div className='main'>
-        <Sidebar />
         <Body> </Body>
     </div>
   )
