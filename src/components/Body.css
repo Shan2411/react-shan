@@ -1,6 +1,6 @@
 .Bodey{
     margin-top: 8vh;
-    width: 60% ;
+    width: 1000px ;
     padding: 3%;
     margin-left: 3.5vw;
 }
@@ -80,7 +80,6 @@ hr {
 }
 
 #border{ height: 76%; width: 87%; 
-    
 
     font: 1em Consolas, monospace;
     font-family: Consolas, monospace;

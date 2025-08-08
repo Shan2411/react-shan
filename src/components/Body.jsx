@@ -12,8 +12,6 @@ function Body () {
         <p className="details">18 y/o Computer Science Student studying at UCC</p>
     */
 
-
-        //no more x button bcus its not a closable window OK?
     return (
         <>
             <div className="Bodey">

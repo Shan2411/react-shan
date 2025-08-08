@@ -50,7 +50,10 @@ function Window1 ({shown, close}) {
 
         <div className="window1Cont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown ? 'block' : 'none'}}>
             <div ref={panel} className="header">
-              <span className="aboutDesign">ABOUT </span>
+              <span className="aboutDesign"> 
+                <img src="/winfo.png" alt="" className="winfoHeader" />
+                about.txt - Notepad
+              </span>
               <span className="xButton" onMouseDown={close}>[ x ]</span>
             </div>
             <Window1content />

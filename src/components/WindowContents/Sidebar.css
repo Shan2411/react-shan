@@ -1,18 +1,15 @@
 
 .pfp{
 
-    margin-top: 7.5%;
-    left: 26.5%;
+    display: inline-block;
 
     height: 18vh;
-    width: 9vw;
+    width: 11.5vw;
 
     border: 1px solid black;
     border-radius: 100%;
     object-fit: cover;
     overflow: hidden;
     pointer-events: none;
-    position: absolute;
 
-    animation-duration: 0.3s;
 }

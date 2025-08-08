@@ -4,9 +4,10 @@
 
 }
 
-.aboutDesign{ height: 100%; width: 83%;
+.aboutDesign{ height: 100%; width: 89%;
     display: flex; 
     align-items: center;
+    font: 0.87em Consolas, monospace;
 }
 
 .window1Cont{ height: 66%; width: 55%; 
@@ -24,4 +25,10 @@
 
     z-index: 1;
 
+}
+.winfoHeader{
+    height: 60px; width: 60px;
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
 }
