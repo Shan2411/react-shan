@@ -1,5 +1,6 @@
 .image2{
     justify-content: center;
+    height: 80px; width: 80px;
 }
 
 .iconContainer{
@@ -29,7 +30,7 @@
 }
 
 #resume1{
-    height: 80px; width: 80px;
+
     object-fit: fill;
 }
 

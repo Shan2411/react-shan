@@ -18,6 +18,21 @@ function Icons () {
                 <div className="block">
                     <img className="image" id="github" src="/java.png" alt="" /> <span id="progName"> Java </span>
                 </div>
+            </div>
+
+             <div className="w1imgconainert">
+                <div className="block">
+                    <img className="image" id="github" src="/python.png" alt="" /> <span id="progName"> Python </span>
+                </div>
+                <div className="block">
+                    <img className="image" id="github" src="/c.png" alt="" /> <span id="progName"> <br /> C </span>
+                </div>
+                <div className="block2">
+                    <img className="image" id="resume" src="/css.png" alt="" /> <span id="progName"> CSS </span>
+                </div>
+                <div className="block2">
+                    <img className="image" id="resume" src="/c.png" alt="" /> <span id="progName"> Java </span>
+                </div>
 
             </div>
             

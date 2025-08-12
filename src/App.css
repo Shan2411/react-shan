@@ -16,3 +16,11 @@
     background-position: top;    
 }
 
+#sound{
+
+    position: absolute;
+    left: 30px;
+    top: 10px;
+
+}
+

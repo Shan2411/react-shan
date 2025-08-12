@@ -12,7 +12,7 @@ function Window1content() {
                     <img src="3.jpg" alt="" className='pfp' />
                     <div className='headcontchild'>
                         <br />
-                        <span id='cw1header1'>Hi! im Shan</span> <span id='cw1header2'>I Illustrate and Develop, capable of working with the following tools and languages:</span> <br /><br /><br />
+                            <span id='cw1header1'>Hi! im Shan</span> <span id='cw1header2'>I Illustrate and Develop, capable of working with the following tools and languages:</span> <br />
                     </div>
                 </div>
                 <p className='text' id='cw1text2'>Development: </p>
@@ -23,6 +23,12 @@ function Window1content() {
                 <br />
                 <span className='text' id='cw1header1'>Education:</span> <br /><br />
                 <p className='text' id='cw1text3'> <br /> 2024 - current Bachelor in science of Computer Science</p>
+                <br /><br />
+                <span className='text' id='cw1header1'>Based in:</span> <br />
+                <span className="loc" id='cw1text2'> 📍 Manila, Philippines  </span>
+                <br /><br />
+                <span className='text' id='cw1header1'>Language Proficiency:</span> <br />
+                <span className="loc" id='cw1text2'> 🌐 English, Filipino  </span>
             </div>
         </div>
     )

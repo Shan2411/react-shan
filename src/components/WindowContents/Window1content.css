@@ -5,7 +5,7 @@
 }
 .containerWindow1{
     margin-left: 7%;
-    margin-top: 6%;
+    margin-top: 3%;
     width: 85%; height: 270%;
 }
 
@@ -19,7 +19,7 @@
 #cw1header1 { height: 8%; width: 48%;
     
     margin-left: 5%; margin-right: 3%;
-    font: 2.5em Consolas, monospace;
+    font: 1.99em Consolas, monospace;
 
 
 }
@@ -28,6 +28,15 @@
     font: 1.06em Consolas, monospace;
     line-height: 245%;
 
+}
+.loc{
+    margin-top: 4%;
+    opacity: 70%;
+    font: .94em Consolas, monospace ; 
+    color: rgb(22, 22, 22);
+    display: flex;
+    width: auto;
+    height: 60%;
 }
 #cw1text2 { height: 3%;
     
@@ -40,7 +49,7 @@
 
 .headcont{
     display: flex;
-    height: 17%;
+    height: 15.6%;
     
 }
 .headcontchild{
