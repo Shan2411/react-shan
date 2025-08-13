@@ -1,6 +1,10 @@
 import { useState, useEffect, useRef} from "react";
 import "./WindowMain.css"
 import { windowSize } from "./Window1";
+import Window3content from "./WindowContents/Window3content.jsx";
+import "./Body.css"
+import "./Window4.css"
+import "./Window1.css"
 
 function Window4 ({shown4, close4}) {
 
@@ -46,9 +50,12 @@ function Window4 ({shown4, close4}) {
     return(
 
         <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: windowSize() ? 0 : newcoords.newX - coords.x, display: shown4 ? 'block' : 'none'}}>
-            <div className="header">
-              <span className="xButton" onMouseDown={close4}>[ x ]</span>
+            <div className="headerWin">
+              <img src="/winbox.png" className="winfoHeader" alt="" />
+              <span className="details2">Inbox</span>
+              <span className="xButtonWhite" onMouseDown={close4}>[ x ]</span>
             </div>
+            <Window3content />
         </div>
         
     )

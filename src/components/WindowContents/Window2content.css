@@ -9,7 +9,8 @@
     
     padding-left: 5%;
     padding-top: 5%;
-    width: 85%; height: 400%;
+    width: 100%; height: 400%;
+    background-color: rgb(225, 225, 225);;
 }
 
 #cw2header1{
