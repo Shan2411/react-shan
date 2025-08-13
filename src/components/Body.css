@@ -1,6 +1,6 @@
 .Bodey{
     margin-top: 8vh;
-    width: 1000px ;
+    width: 65% ;
     padding: 3%;
     margin-left: 3.5vw;
 }
@@ -21,6 +21,7 @@
     line-height: 170%;
     color: rgb(35, 34, 34) ;
     background-color: rgb(225, 225, 225);
+    transition: all 0.3s ease; 
 }
 
 
@@ -93,6 +94,31 @@ hr {
 
 }
 
- @media screen and (max-width: 768px) {
-        
+ @media screen and (max-width: 1440px) {
+    .Bodey{
+    width: 1000px ;
     }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .Bodey{
+    margin-top: 0vh;
+    width: 100% ;
+    padding: 0%;
+    margin-left: 0vw;
+}
+
+#border{ height: 100%; width: 100%; 
+
+    font: 1em Consolas, monospace;
+    font-family: Consolas, monospace;
+    line-height: 170%;
+    color: rgb(35, 34, 34) ;
+    background-color: rgb(201, 201, 201);
+}
+#hidden {
+    font-size: 0.87em;
+}
+    
+}

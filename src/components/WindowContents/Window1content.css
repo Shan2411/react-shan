@@ -57,3 +57,33 @@
     height: 30%;
     
 }
+
+@media screen and (max-width: 750px) {
+
+.headcont{
+    display: flex;
+    height: 15.6%;
+    flex-direction: column;
+    
+}
+
+.text{
+    opacity: 85%;
+    font: .99em Consolas, monospace;
+    
+}
+#cw1header1 { height: 8%; width: 48%;
+    
+    margin-left: 5%; margin-right: 3%;
+    font: 1.5em Consolas, monospace;
+
+
+}
+#cw1header2 { height: 4%; width: 20%;
+    
+    font: .92em Consolas, monospace;
+    line-height: 245%;
+
+}
+    
+}

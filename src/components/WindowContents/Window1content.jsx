@@ -27,8 +27,6 @@ function Window1content() {
                 <span className='text' id='cw1header1'>Based in:</span> <br />
                 <span className="loc" id='cw1text2'> 📍 Manila, Philippines  </span>
                 <br /><br />
-                <span className='text' id='cw1header1'>Language Proficiency:</span> <br />
-                <span className="loc" id='cw1text2'> 🌐 English, Filipino  </span>
             </div>
         </div>
     )

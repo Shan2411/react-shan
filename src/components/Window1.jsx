@@ -17,6 +17,7 @@ function Window1 ({shown, close}) {
     };
     const mouseM = (event) => {
       setnewcoords({ newX: event.clientX, newY: event.clientY });
+
     };
     const mouseD = (event) => {
         const rect = panel.current.getBoundingClientRect();
@@ -44,11 +45,14 @@ function Window1 ({shown, close}) {
       };
     }, []);
 
-    // programming languages known, details, human languages known? , 
+    // determine current size of the website
+
+
+ 
 
     return(
-
-        <div className="window1Cont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown ? 'block' : 'none'}}>
+      <>
+        <div className="window1Cont" style={{top: newcoords.newY - coords.y, left: windowSize() ? 0 : newcoords.newX - coords.x, display: shown ? 'block' : 'none'}}>
             <div ref={panel} className="header">
               <span className="aboutDesign"> 
                 <img src="/winfo.png" alt="" className="winfoHeader" />
@@ -58,9 +62,15 @@ function Window1 ({shown, close}) {
             </div>
             <Window1content />
         </div>
-        
+      </>
     )
 
 }
 
+export function windowSize() {
+  
+  const windowWidth = window.innerWidth;
+  return windowWidth < 750;
+
+}
 export default Window1;

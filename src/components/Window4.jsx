@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef} from "react";
 import "./WindowMain.css"
+import { windowSize } from "./Window1";
 
 function Window4 ({shown4, close4}) {
 
@@ -44,7 +45,7 @@ function Window4 ({shown4, close4}) {
 
     return(
 
-        <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown4 ? 'block' : 'none'}}>
+        <div ref={panel} className="windowCont" style={{top: newcoords.newY - coords.y, left: windowSize() ? 0 : newcoords.newX - coords.x, display: shown4 ? 'block' : 'none'}}>
             <div className="header">
               <span className="xButton" onMouseDown={close4}>[ x ]</span>
             </div>

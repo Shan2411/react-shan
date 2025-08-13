@@ -2,3 +2,8 @@
 
 
 }
+@media screen and (max-width: 750px) {
+
+#window2size{ height: 100%; width: 100%; }
+    
+}

@@ -13,3 +13,12 @@
     pointer-events: none;
 
 }
+
+@media screen and (max-width: 750px) {
+    .pfp{
+        
+    height: 100px;
+    width: 100px;
+
+    }
+}

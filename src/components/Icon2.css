@@ -39,3 +39,20 @@
     
 }
 
+@media screen and (max-width: 750px) {
+
+.iconContainer{
+    height: 47.5%;
+    display: flex;
+    align-items:center;
+    padding-top: 3%;
+    padding-left: 3%;
+    gap: 3%;
+    
+}
+.image2{
+    justify-content: center;
+    height: 47px; width: 47px;
+}
+    
+}

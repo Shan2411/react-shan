@@ -3,7 +3,7 @@ import "./WindowMain.css"
 import "./Window2.css"
 import "./Window1.css"
 import Window2content from "./WindowContents/Window2content.jsx";
-
+import {windowSize} from "./Window1.jsx"
 
 function Window2 ({shown2, close2}) {
 
@@ -48,7 +48,7 @@ function Window2 ({shown2, close2}) {
 
     return(
 
-        <div className="windowCont" id="window2size" style={{top: newcoords.newY - coords.y, left: newcoords.newX - coords.x, display: shown2 ? 'block' : 'none'}}>
+        <div className="windowCont" id="window2size" style={{top: newcoords.newY - coords.y, left: windowSize() ? 0 : newcoords.newX - coords.x, display: shown2 ? 'block' : 'none'}}>
             <div className="header" ref={panel}>
               <img src="/wfoldericon.png" className= "winfoHeader" alt="" />
               <span className="aboutDesign">works</span>
@@ -60,5 +60,6 @@ function Window2 ({shown2, close2}) {
     )
 
 }
+
 
 export default Window2;
