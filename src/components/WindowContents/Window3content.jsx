@@ -23,8 +23,9 @@ function Window3content() {
                     <a className = "link" href="https://x.com/E30751Meow" target="_blank" rel="noopener noreferrer">
                         <img className="img" src="/twitt.png" alt="" />
                     </a>
-                    
                 </div>
+                    Name: Shan David H Enriquez <br />
+                    Email: shandavid2411@gmail.com
             </div>
         </div>
     )
