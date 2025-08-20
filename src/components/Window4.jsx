@@ -8,9 +8,6 @@ import "./Window1.css"
 
 function Window4 ({shown4, close4}) {
 
-
-    console.log("number 4",shown4 )
-
     const panel = useRef(null)
     const [coords, setcoords] = useState({x: -500, y: -180});
     const [newcoords, setnewcoords] = useState({ newX: 0, newY: 0 });
@@ -32,18 +29,16 @@ function Window4 ({shown4, close4}) {
     };
 
     useEffect(() => {
-      const logs = (event) => {
-        console.log(newcoords.newX);
-      };
-
-      panel.current.addEventListener("mousedown", mouseD);
-      document.addEventListener("keydown", logs);
+      if (panel.current) {
+        panel.current.addEventListener("mousedown", mouseD);
+      }
 
       return () => {
-        document.removeEventListener("keydown", logs);
         document.removeEventListener("mousemove", mouseM);
         document.removeEventListener("mouseup", mouseU);
-        //panel.current.removeEventListener("mousedown", mouseD)
+        if(panel.current) {
+          panel.current.removeEventListener("mousedown", mouseD);
+        }
       };
     }, []);
 

@@ -7,9 +7,6 @@ import {windowSize} from "./Window1.jsx"
 
 function Window2 ({shown2, close2}) {
 
-
-    console.log("number 2",shown2 )
-
     const panel = useRef(null)
     const [coords, setcoords] = useState({x: -500, y: -180});
     const [newcoords, setnewcoords] = useState({ newX: 0, newY: 0 });
@@ -31,18 +28,15 @@ function Window2 ({shown2, close2}) {
     };
 
     useEffect(() => {
-      const logs = (event) => {
-        console.log(newcoords.newX);
-      };
 
       panel.current.addEventListener("mousedown", mouseD);
-      document.addEventListener("keydown", logs);
 
       return () => {
-        document.removeEventListener("keydown", logs);
         document.removeEventListener("mousemove", mouseM);
         document.removeEventListener("mouseup", mouseU);
-        //panel.current.removeEventListener("mousedown", mouseD)
+        if(panel.current) {
+          panel.current.removeEventListener("mousedown", mouseD)
+        }
       };
     }, []);
 

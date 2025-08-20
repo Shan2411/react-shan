@@ -5,9 +5,6 @@ import Window1content from "./WindowContents/Window1content.jsx"
 
 function Window1 ({shown, close}) {
 
-
-    console.log(shown)
-
     const panel = useRef(null)
     const [coords, setcoords] = useState({x: -500, y: -180});
     const [newcoords, setnewcoords] = useState({ newX: 0, newY: 0 });
@@ -30,25 +27,21 @@ function Window1 ({shown, close}) {
     };
 
     useEffect(() => {
-      const logs = (event) => {
-        console.log(newcoords.newX);
-      };
 
       panel.current.addEventListener("mousedown", mouseD);
-      document.addEventListener("keydown", logs);
 
       return () => {
-        document.removeEventListener("keydown", logs);
         document.removeEventListener("mousemove", mouseM);
         document.removeEventListener("mouseup", mouseU);
-        //panel.current.removeEventListener("mousedown", mouseD)
+
+        if (panel.current) {
+          panel.current.removeEventListener("mousedown", mouseD);
+        }
       };
     }, []);
 
     // determine current size of the website
 
-
- 
 
     return(
       <>

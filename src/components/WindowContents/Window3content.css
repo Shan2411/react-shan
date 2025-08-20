@@ -16,30 +16,36 @@
 }
 
 .imgCont{
-
-    height: 20%;
-    display: flex;
-    gap: 7%;
-    padding-left: 5%;
-    
+    text-align: center;
+    display: block;
+    height: 80%;
+    column-count: 2;
+    width: 30%;
+    margin-left: 6%;
 }
 
-img{
-
+.img4{
+    
     height: 60px;
     width: 60px;
+ 
 
 }
 
-.link{height: 40%; width: 60%;}
+.link{
+    display: block;
+    height: 60px;
+    width: 60px;
+   margin-bottom: 35%;}
 
 @media screen and (max-width: 750px) {
-    .imgCont{
-
-    height: 60%;
-    display: flex;
-    gap: 3%;
-    padding-left: 0%;
+.imgCont{
+    text-align: center;
+    display: block;
+    height: 80%;
+    column-count: 2;
+    width: 30%;
+    margin-left: 6%;
 }
 
 img{
