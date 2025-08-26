@@ -72,22 +72,23 @@
     font-size: 1em;
     height: 9.2%;
 }
-.xButton{width: 15%;
+.xButton{width: 19%;
     padding-top: 0.8%;
-font-size: 1.1em;
+font-size: 1em;
 }
 
 .windowCont{
 height: 100%; width: 100%; 
 
 
+
 }
 .xButtonWhite{
-    height: 50%; width: 9%;
+    height: 50%; width: 15%;
     cursor: pointer;
     text-align: center;
     color: rgb(225, 225, 225);
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 }

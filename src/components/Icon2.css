@@ -1,6 +1,6 @@
 .image2{
     justify-content: center;
-    height: 80px; width: 80px;
+    height: 70px; width: 70px;
 }
 
 .iconContainer{
@@ -49,6 +49,10 @@
     padding-left: 3%;
     gap: 3%;
     
+}
+.desc{
+
+    line-height: 110%;
 }
 .image2{
     justify-content: center;

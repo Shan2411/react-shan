@@ -43,10 +43,10 @@ function Window2 ({shown2, close2}) {
     return(
 
         <div className="windowCont" id="window2size" style={{top: newcoords.newY - coords.y, left: windowSize() ? 0 : newcoords.newX - coords.x, display: shown2 ? 'block' : 'none'}}>
-            <div className="header" ref={panel}>
+            <div ref={panel} className="headerWin">
               <img src="/wfoldericon.png" className= "winfoHeader" alt="" />
-              <span className="aboutDesign">works</span>
-              <span className="xButton" onMouseDown={close2}>[ x ]</span>
+              <span className="details2">works</span>
+              <span className="xButtonWhite" onMouseDown={close2}>[ x ]</span>
             </div>
             <Window2content />
         </div>

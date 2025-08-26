@@ -19,7 +19,7 @@ function Body () {
                 <div className="box" id="hidden"> 
                     <div className="head"> 
                         <img className="folderHeader" src="/wfolder2.png" alt="" />
-                        <p className="details">C:\Windows\System32\Shan's Computer</p>
+                        <p className="details">C:\Windows\System32\Shan's_Computer</p>
                     </div>
                     <div className="head2"> 
                         <span className="loc">File</span>
