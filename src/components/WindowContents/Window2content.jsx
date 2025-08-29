@@ -33,12 +33,14 @@ function Window2content () {
 
                     <div className='illustContainer' style={{display: visible ? "block" : "none"}}>
                         <div className='drawnContainer'>
+                            <img className="drawn" src="/newMococo.gif" alt="" />
                             <img className='drawn' src="/Du30.jpg" alt="" />
-                            <img className='drawn' src="/Red sun.jpg" alt="" />
                             <img className='drawn' src="/new2.jpg" alt="" />
+                            <img className='drawn' src="/Red sun.jpg" alt="" />
+                            <img className='drawn' src="/gmurin.jpg" alt="" />
                             <img className='drawn' src="/sabe.jpg" alt="" />
                             <img className='drawn' src="/maybe.png" alt="" />
-                            <img className='drawn' src="/gmurin.jpg" alt="" />
+                            
                         </div>
                     </div>
                 </div>
